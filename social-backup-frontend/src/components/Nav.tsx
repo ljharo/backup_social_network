@@ -8,7 +8,7 @@ export default function Navbar(instagramProps: InstagramLoginProps) {
       <div className="navbar-content">
         <div className="brand-identity">
           <img src={logo} alt="logo.jpg" className="logo" />
-          <span className="page-title">Social Backuo</span>
+          <span className="page-title">Social Backup</span>
         </div>
         <div className="action-section">
           <InstagramLogin {...instagramProps} />
